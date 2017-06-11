@@ -1,0 +1,20 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body, #app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eee;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: 200;
+  color: #3b414c;
+  font-size: 20px;
+}

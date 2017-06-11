@@ -1,15 +1,15 @@
 module.exports = {
-  entry: [
-    './src/App.js'
-  ],
+  entry: "./src/app.js",
   output: {
-    path: __dirname,
-    filename: "dist/bundle.js"
+    filename: "./public/bundle.js"
   },
   module: {
     loaders: [{
       test: /\.jsx?$/,
-      loader: babel
+      loader: 'babel-loader',
+      query: {
+        presets: ['react']
+      }
     }]
   }
 };
