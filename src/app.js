@@ -5,7 +5,7 @@ import KanbanBoard from './KanbanBoard';
 let cardList = [
   {
     id: 1,
-    title: 'Read the book',
+    title: 'Read yooooooooo the book',
     description: 'I should read the whole book',
     status: 'in-progress',
     tasks: []
