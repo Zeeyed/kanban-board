@@ -4,7 +4,6 @@
   "description": "Kanban Board Clone App using React JS",
   "main": "index.js",
   "scripts": {
-    
     "start": "webpack -p && webpack-dev-server --hot --inline"
   },
   "repository": {
@@ -18,6 +17,7 @@
   },
   "homepage": "https://github.com/Zeeyed/kanban-board#readme",
   "dependencies": {
+    "marked": "^0.3.6",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },
