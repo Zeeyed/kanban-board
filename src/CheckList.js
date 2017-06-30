@@ -12,7 +12,11 @@ class CheckList extends Component {
     ));
 
     const styleForm = {
-      border: '1px'
+      border: '1px dashed #bbb',
+      width: '100%',
+      padding: '10px',
+      marginTop: '5px',
+      borderRadius: '3px',
     }
 
     return(
