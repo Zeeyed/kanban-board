@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class CheckList extends Component {
   render(){
-    let tasks = this.props.tasks.map((task) => (
+    const tasks = this.props.tasks.map((task) => (
       <li className="checklist__task" 
       key={ task.id }>
         <input type="checkbox" defaultChecked={ task.done } />
@@ -11,9 +11,16 @@ class CheckList extends Component {
       </li>
     ));
 
+    const styleForm = {
+      border: '1px'
+    }
+
     return(
       <div>
         <ul>{ tasks }</ul>
+        <input type="text"
+          className="checklist--add-task"
+          placeholder="Type then hit Enter to add a task"/>
       </div>
     );
   }
